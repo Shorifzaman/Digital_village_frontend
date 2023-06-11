@@ -4,9 +4,10 @@ A platform to transform an analog village into a digital village
 
 ## 🚀 Visit Digital Village
 
-**Live Site: [Digital Village](https://digital-village.herokuapp.com/)**
+**Live Site: [Digital Village](https://smart-village.onrender.com/)**
+**Live Site: [Digital Village](https://digital-village-39hz.onrender.com/)**
 
-**Code Source:**
+**Team Code Source:**
 
 - **[Digital_Village_Frontend](https://github.com/akhlakuzzalal/digital_village_front-end)**
 - **[Digital_Village_Backend](https://github.com/akhlakuzzalal/digital_village_back_end)**
