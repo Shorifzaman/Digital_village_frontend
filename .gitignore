@@ -12,7 +12,6 @@ mycss.css
 /coverage
 
 # production
-/build
 /ENV-FILE
 
 
