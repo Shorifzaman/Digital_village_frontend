@@ -77,7 +77,6 @@ import About from "./Pages/shared/About/About";
 import Login from "./Pages/shared/Authentication/Login/Login";
 import Register from "./Pages/shared/Authentication/Register/Register";
 import Contact from "./Pages/shared/Contact/Contact";
-import Footer from "./Pages/shared/Home/Footer/Footer";
 import Header from "./Pages/shared/Home/Header/Header";
 import Home from "./Pages/shared/Home/Home";
 import EditNews from "./Pages/shared/Home/News/EditNews/EditNews";
@@ -100,6 +99,7 @@ import UserDashboard from "./Pages/User/UserDashboard";
 import AdminRoute from "./SecureRoutes/AdminRoute";
 import PrivateRoute from "./SecureRoutes/PrivateRoute";
 import ScrollToTop from "./Components/ScrollToTop";
+import Footer from "./Pages/Education/Student/StudentHome/StudentFooter/StudentFooter";
 
 export const Roles = {
   User: 1000,
