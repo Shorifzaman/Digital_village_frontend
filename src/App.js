@@ -2,7 +2,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Chat from "./Components/ChattingApp/Chat/Chat";
 import Join from "./Components/ChattingApp/Join/Join";
-import ScrollToTop from "./Components/ScrollToTop";
 import TestFileUpload from "./Components/TestFileUpload";
 import UnAuthorized from "./Components/UnAuthorized";
 import { AuthProvider } from "./context/AuthProvider";
@@ -100,6 +99,7 @@ import Review from "./Pages/User/Review/Review";
 import UserDashboard from "./Pages/User/UserDashboard";
 import AdminRoute from "./SecureRoutes/AdminRoute";
 import PrivateRoute from "./SecureRoutes/PrivateRoute";
+import ScrollToTop from "./Components/ScrollToTop";
 
 export const Roles = {
   User: 1000,
@@ -111,7 +111,7 @@ const App = () => (
   <AuthProvider>
     <BrowserRouter>
       <Header />
-      <ScrollToTop>
+      <ScrollToTop >
         <Routes>
           <Route path="/testFileUpload" element={<TestFileUpload />} />
           {/* ALL PUBLIC ROUTES */}
