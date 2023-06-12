@@ -1,6 +1,5 @@
 import axios from "axios";
-export const BASE_URI = 'https://digital-village-39hz.onrender.com/';
-// export const BASE_URI = 'https://smart-village.onrender.com/';
+export const BASE_URI = "https://digital-village-q7ua.onrender.com";
 // export const BASE_URI = "https://plain-clam-tights.cyclic.app";
 // export const BASE_URI = 'http://localhost:5000';
 
